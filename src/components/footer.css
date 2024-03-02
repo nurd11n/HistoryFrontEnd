@@ -1,0 +1,78 @@
+.footer {
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.9);
+
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+.footer__container {
+  margin: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__logo {
+  font-weight: 800;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  transition: color 0.8s ease;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.footer__logo:hover {
+  color: #ffd800;
+}
+
+.footer__logo .flipped {
+  display: inline-block;
+  transform: rotateX(180deg);
+}
+.footer__container-links {
+  display: flex;
+  flex-direction: column;
+}
+.footer__container-links a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  margin: 12px 0;
+}
+.search-container {
+  text-align: center;
+}
+
+.search-text {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.search-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  color: white;
+  border-radius: 20px;
+  width: 300px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+.search-icons {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-icons i {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.users div{
+  color: white;
+  margin-top: 15px;
+}
